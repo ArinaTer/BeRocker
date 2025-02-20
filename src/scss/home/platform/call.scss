@@ -1,0 +1,91 @@
+.platform {
+  &__call {
+    width: 52.8rem;
+    padding: 4rem 6.4rem;
+    border-radius: 2.4rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    box-shadow: 0 0.8rem 1.6rem 0 rgba(0, 0, 0, 0.04);
+    background: var(--light-color);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    @include _1199-max {
+      padding: 3.2rem;
+      margin-left: 16px;
+      width: 80%;
+    }
+    @include _991-max {
+      height: 100%;
+      width: 100%;
+      padding: 0;
+      position: static;
+      transform: none;
+      background: none;
+      box-shadow: none;
+      border: 3px solid rgba(43, 115, 255, 0.12);
+      border-radius: 12px;
+      padding: 23px 35px;
+      margin-left: 0;
+      display: none;
+    }
+
+    &.active {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: all;
+      @include _991-max {
+        display: block;
+      }
+    }
+    &-title {
+      font-weight: 700;
+      font-size: 4rem;
+      line-height: 120%;
+      text-align: center;
+      color: #444;
+      @include _991-max {
+        font-size: 23px;
+      }
+    }
+    .form__item {
+      margin-top: 4rem;
+      @include _991-max {
+        margin-top: 23px;
+      }
+    }
+    .form__input {
+      margin-top: 0.4rem;
+    }
+    &-btn {
+      width: 100%;
+      margin-top: 3.2rem;
+      @include _991-max {
+        margin-top: 16px;
+        span {
+          font-size: 14px;
+        }
+      }
+      img {
+        display: none;
+      }
+    }
+    &-text {
+      margin-top: 1.6rem;
+      font-weight: 500;
+      font-size: 1.6rem;
+      line-height: 100%;
+      letter-spacing: -0.01em;
+      text-align: center;
+      color: var(--dark-color);
+      @include _991-max {
+        margin-top: 16px;
+        font-size: 12px;
+      }
+    }
+  }
+  //   &__form
+}

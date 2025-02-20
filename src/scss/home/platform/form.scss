@@ -1,0 +1,107 @@
+.platform {
+  &__form {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 2.4rem;
+    width: 52.8rem;
+    z-index: 1;
+    padding: 4rem 6.4rem;
+    background-color: var(--light-color);
+    @include _1199-max {
+      padding: 3.2rem;
+      margin-left: 16px;
+      width: 80%;
+    }
+    @include _991-max {
+      height: 100%;
+      width: 100%;
+      position: static;
+      transform: none;
+      padding: 0;
+      background: none;
+      box-shadow: none;
+      border: 3px solid rgba(43, 115, 255, 0.12);
+      border-radius: 12px;
+      padding: 23px 35px;
+      display: none;
+      margin-left: 0;
+    }
+    &.active {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: all;
+      @include _991-max {
+        display: block;
+      }
+    }
+    &-title {
+      font-weight: 700;
+      font-size: 3.2rem;
+      line-height: 100%;
+      text-align: center;
+      color: #444;
+      @include _991-max {
+        font-size: 18px;
+      }
+    }
+    &-block {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      margin-top: 4rem;
+      @include _991-max {
+        margin-top: 23px;
+        gap: 12px;
+      }
+    }
+    .form__input {
+      padding: 1.2rem 6.6rem 1.2rem 1.6rem;
+    }
+    .form__edit {
+      position: absolute;
+      bottom: 2rem;
+      right: 1.6rem;
+      transform: translateY(50%);
+      font-weight: 400;
+      font-size: 1.5rem;
+      line-height: 100%;
+      color: #2b73ff;
+      @include flex;
+      gap: 0.2rem;
+      @include _991-max {
+        font-size: 12px;
+        bottom: 20px;
+        right: 16px;
+        svg {
+          width: 12px;
+        }
+      }
+    }
+    &-btn {
+      margin-top: 2rem;
+      @include _991-max {
+        margin-top: 16px;
+        span {
+          font-size: 14px;
+        }
+      }
+      img {
+        display: none;
+      }
+    }
+    &-text {
+      margin-top: 1.6rem;
+      font-weight: 500;
+      font-size: 1.6rem;
+      line-height: 100%;
+      letter-spacing: -0.01em;
+      color: var(--dark-color);
+      text-align: center;
+    }
+  }
+}

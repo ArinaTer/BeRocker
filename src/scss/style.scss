@@ -1,0 +1,35 @@
+// Font
+@import "../files/fonts/font.css";
+
+// Base
+@import "./base/var";
+@import "./base/reset";
+@import "./base/mixins";
+@import "./base/common";
+@import "./base/libs";
+
+// Components
+@import "./components/preloader";
+@import "./components/header";
+@import "./components/footer";
+@import "./components/primary-button";
+@import "./components/form";
+
+// Modal
+@import "./modals/modal";
+@import "./modals/modalAction";
+@import "./modals/modalFaq";
+
+
+
+// Home Page
+@import "./home/intro";
+@import "./home/platform/platform";
+@import "./home/comment";
+@import "./home/faq";
+@import "./home/services";
+@import "./home/why-us";
+@import "./home/action";
+@import "./home/pricing";
+
+@import "./home/feedback";
