@@ -1,4 +1,6 @@
-BeRocker BeRocker is a dynamic landing page for a courier service, designed to
+BeRocker 
+
+BeRocker is a dynamic landing page for a courier service, designed to
 showcase the company's offerings with a modern and engaging web experience. The
 page utilizes HTML, CSS, JavaScript, and Three.js to create a visually
 captivating 3D scene, smooth animations, and a fully responsive layout, ensuring
