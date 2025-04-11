@@ -1,31 +1,23 @@
 BeRocker 
 
-BeRocker is a dynamic landing page for a courier service, designed to
-showcase the company's offerings with a modern and engaging web experience. The
-page utilizes HTML, CSS, JavaScript, and Three.js to create a visually
-captivating 3D scene, smooth animations, and a fully responsive layout, ensuring
-an exceptional user experience on any device.
+BeRocker — это динамичная посадочная страница для курьерской службы, созданная для того, чтобы продемонстрировать предложения компании с помощью современного и захватывающего веб-опыта. Страница использует HTML, CSS, JavaScript и Three.js для создания визуально привлекательной 3D-сцены, плавных анимаций и полностью адаптивного дизайна, обеспечивая исключительный пользовательский опыт на любом устройстве.
 
-📌 About the Project BeRocker is a visually interactive landing page that
-introduces a courier service. The website is built with cutting-edge web
-technologies, including Three.js for 3D visual effects, providing an immersive
-experience for visitors. The page features fluid animations and a responsive
-design that adapts seamlessly to mobile, tablet, and desktop devices, making it
-easy for users to explore the service offerings.
+📌 О проекте
+BeRocker — это визуально интерактивная посадочная страница, которая представляет курьерскую службу. Сайт построен с использованием современных веб-технологий, включая Three.js для создания 3D-визуальных эффектов, что позволяет создать захватывающее взаимодействие для посетителей. Страница включает плавные анимации и адаптивный дизайн, который seamlessly подстраивается под мобильные, планшетные и десктопные устройства, обеспечивая удобный доступ ко всем предложениям сервиса.
 
-🎯 Key Features
+🎯 Ключевые особенности
 
-3D scene powered by Three.js for an immersive experience
+3D-сцена, созданная с помощью Three.js, для создания захватывающего опыта
 
-Smooth animations and transitions for engaging interactions
+Плавные анимации и переходы для увлекательных взаимодействий
 
-Fully responsive design for an optimal experience on all devices
+Полностью адаптивный дизайн для оптимального опыта на всех устройствах
 
-Clean and modern user interface for easy navigation
+Чистый и современный интерфейс для удобной навигации
 
-Real-time courier service information and contact options
+Реальная информация о курьерской службе и возможность связи с командой
 
-🛠️ Technologies Used
+🛠️ Используемые технологии
 
 HTML
 
@@ -33,38 +25,45 @@ CSS
 
 JavaScript
 
-Three.js (for 3D visual effects)
+Three.js (для 3D-визуальных эффектов)
 
-🎨 Design
+🎨 Дизайн
 
-Stunning 3D visuals that capture the attention
+Впечатляющие 3D-визуальные элементы, привлекающие внимание
 
-Fully responsive layout for seamless browsing across devices
+Полностью адаптивный макет для удобного просмотра на любых устройствах
 
-Sleek, modern design that emphasizes usability and performance
+Современный стиль, акцентирующий внимание на удобстве и производительности
 
-📲 How to Use
+📲 Как использовать
 
-Open the BeRocker landing page in any modern browser.
+Откройте посадочную страницу BeRocker в любом современном браузере.
 
-Interact with the 3D scene and explore the courier service details.
+Взаимодействуйте с 3D-сценой и исследуйте детали курьерской службы.
 
-Easily navigate through the site to get more information or contact the service
-team.
+Легко перемещайтесь по сайту, чтобы получить дополнительную информацию или связаться с командой.
 
-📥 How to Download the Repository
-
-Clone the repository from the dev branch:
+📥 Как скачать репозиторий
+Клонируйте репозиторий с ветки dev:
 
 git clone https://github.com/ArinaTer/BeRocker.git
 
-📦 Install Dependencies Ensure you have Node.js installed, then run:
+📦 Установка зависимостей
+Убедитесь, что у вас установлен Node.js, затем выполните:
 
 npm install
 
-🚀 Running the Project Locally Start the development server:
+🚀 Запуск проекта локально
+Запустите сервер разработки:
 
 npm run dev
+
+Откройте браузер и посетите: http://localhost:3000
+
+🏗️ Создание production-версии
+Для генерации сборки для продакшн:
+
+npm run build
 
 Open your browser and visit: http://localhost:3000
 
